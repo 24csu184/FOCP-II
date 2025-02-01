@@ -56,3 +56,64 @@ int main() {
 
 ------------------------------------------------------------------------------------------------
 
+// take two floating point numbers as input and display their division result with two decimal places.
+
+------------------------------------------------------------------------------------------------
+
+// WAP that calculates the CI for given principal, rate of interest, and time period using constants and user input for variables.
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    double principal, rate;
+    int Time;
+    cout << "Enter the principal amount: ";
+    cin >> principal;
+    cout << "Enter the rate of interest (in %): ";
+    cin >> rate;
+    cout << "Enter the time period (in years): ";
+    cin >> Time;
+    double amount = principal * pow((1 + (rate / 100)), Time);
+    double compoundInterest=amount - principal;
+    cout << "The Compound Interest is: " << compoundInterest << endl;
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------
+
+// WAP that calculates area and perimeter of rectangle using user-provided lenght and width.
+#include <iostream>
+using namespace std;
+int main() {
+    int l,b,p;
+    cout<<"Enter lenght and width=";
+    cin>>l>>b;
+    p=(l+b)+(l+b);
+    cout<<"Area="<<l*b<<endl<<"Perimeter="<<p;
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------
+
+// WAP to swap two numbers using a temporary variable and then without using a temporary variable.
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b, temp;
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
+    cout << "Temp Variable: Before swapping: a = " << a << ", b = " << b << endl;
+    temp = a;
+    a = b;
+    b = temp;
+    cout << "After swapping: a = " << a << ", b = " << b << endl;
+    cout << "Without Temp Variable: Before swapping: a = " << a << ", b = " << b << endl;
+    a = a + b;
+    b = a - b;
+    a = a - b;
+    cout << "After swapping: a = " << a << ", b = " << b << endl;
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------
+
