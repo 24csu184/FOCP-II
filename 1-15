@@ -1,0 +1,58 @@
+// WAP that reads a user's name and age then prints,"Hello [name],you're [age] years old"
+#include <iostream>
+using namespace std;
+int main() {
+    int age;
+	char name[50];
+	cout<<"enter name-";
+	cin.getline(name,50);
+	cout<<"enter your age-";
+	cin>>age;
+	cout<<"Hello "<<name<<" ,you're "<<age<<" years old";
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------
+
+// WAP that take two integer and print their sum
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b;
+    cout<<"Enter Two numbers=";
+    cin>>a>>b;
+    cout<<a+b;
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------
+
+// Ask the user to input two numbers and a mathematical operator (+,-,*,/) and display the result of the operation.
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b;
+    char op;
+    cout<<"Enter Numbers=";
+    cin>>a>>b;
+    cout<<"Enter Operator=";
+    cin>>op;
+    switch (op){
+        case '+':
+        cout<<a+b;
+        break;
+        case '-':
+        cout<<a-b;
+        break;
+        case '*':
+        cout<<a*b;
+        break;
+        case '/':
+        cout<<a/b;
+        break;
+    }
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------
+
