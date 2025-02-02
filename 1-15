@@ -1,4 +1,4 @@
-// WAP that reads a user's name and age then prints,"Hello [name],you're [age] years old"
+// Q1. WAP that reads a user's name and age then prints,"Hello [name],you're [age] years old"
 #include <iostream>
 using namespace std;
 int main() {
@@ -14,7 +14,7 @@ int main() {
 
 ------------------------------------------------------------------------------------------------
 
-// WAP that take two integer and print their sum
+// Q2. WAP that take two integer and print their sum
 #include <iostream>
 using namespace std;
 int main() {
@@ -27,7 +27,7 @@ int main() {
 
 ------------------------------------------------------------------------------------------------
 
-// Ask the user to input two numbers and a mathematical operator (+,-,*,/) and display the result of the operation.
+// Q3. Ask the user to input two numbers and a mathematical operator (+,-,*,/) and display the result of the operation.
 #include <iostream>
 using namespace std;
 int main() {
@@ -56,11 +56,11 @@ int main() {
 
 ------------------------------------------------------------------------------------------------
 
-// take two floating point numbers as input and display their division result with two decimal places.
+// Q4. take two floating point numbers as input and display their division result with two decimal places.
 
 ------------------------------------------------------------------------------------------------
 
-// WAP that calculates the CI for given principal, rate of interest, and time period using constants and user input for variables.
+// Q5. WAP that calculates the CI for given principal, rate of interest, and time period using constants and user input for variables.
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -81,7 +81,7 @@ int main() {
 
 ------------------------------------------------------------------------------------------------
 
-// WAP that calculates area and perimeter of rectangle using user-provided lenght and width.
+// Q6. WAP that calculates area and perimeter of rectangle using user-provided lenght and width.
 #include <iostream>
 using namespace std;
 int main() {
@@ -95,7 +95,7 @@ int main() {
 
 ------------------------------------------------------------------------------------------------
 
-// WAP to swap two numbers using a temporary variable and then without using a temporary variable.
+// Q7. WAP to swap two numbers using a temporary variable and then without using a temporary variable.
 #include <iostream>
 using namespace std;
 int main() {
